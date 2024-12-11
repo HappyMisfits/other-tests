@@ -32,7 +32,7 @@ jobs:
     steps:
     - name: Verify push permissions
       run: |
-        if [ "${{ github.actor }}" != "SteeveO" ]; then
+        if [ "${{ github.actor }}" != "HappyMisfits" ]; then
           echo "Only user 'SteeveO' is allowed to push to the main branch."
           exit 1
         fi
